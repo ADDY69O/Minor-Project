@@ -1,6 +1,5 @@
-
 # Requires-Python <3.5
-python_version < "3.5"
+platform_python_implementation == "CPython" and python_version < "3.5"
 
 # Requires-Python >=3.7,<3.11
 python_version >= "3.7, <3.11"
